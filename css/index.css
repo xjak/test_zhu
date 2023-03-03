@@ -1,0 +1,81 @@
+body{
+  background-color: #eee !important;
+}
+
+/* header */
+.css-1hlrcxk,
+.AppHeader-userInfo,
+.SearchTabs-profile,
+.SearchTabs.SearchTab-bottomShadow,
+.Tabs[role="tablist"],
+.Card.TopSearch.TopSearch--new,
+.css-1ynzxqw,
+.QuestionHeader-main,
+.PageHeader,
+.Pc-word,
+.Footer{
+  display: none !important;
+}
+.Button.SimpleSearchBar-solidSearchButton.Button--primary.Button--blue,Button.SearchBar-searchButton.Button--primary.Button--blue
+{
+  background-color: #eee !important;
+}
+b{
+  color: #b3b3b3 !important;
+}
+
+/* 搜索 list */
+img{
+  opacity: 0.5 !important;
+}
+.Highlight{
+  color: #666;
+  font-weight: normal !important;
+}
+.Highlight em{
+  color: #c58988 !important;
+  font-weight: normal !important;
+}
+.VoteButton{
+  color: #585858 !important;
+  background: rgb(149 149 149 / 10%) !important;
+}
+
+/* 内容 */
+.Card.SearchResult-Card{
+  width: 500px
+}
+.css-1gomreu{
+  font-weight: normal !important;
+}
+.Tag.QuestionTopic{
+  color: #666;
+}
+
+/* 弹窗 */
+.css-18hmmtu{
+  opacity: 0 !important;
+}
+.css-1cqr2ue{
+  width: 480px !important;
+  box-shadow: none !important;
+}
+.css-vpssrj, a[href]{
+  font-weight: normal !important;
+}
+
+/* 热搜 */
+.css-vurnku .css-ghjkiv{
+  opacity: .3 !important;
+}
+
+/* 专栏 */
+.QuestionHeader-title{
+  font-size: 16px !important;
+  color: #aaa !important;
+  font-weight: normal !important;
+}
+.Question-mainColumn{
+  width: 500px !important;
+}
+

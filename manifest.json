@@ -1,0 +1,52 @@
+{
+  "name": "Zhu",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "这是一段描述。。。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.zhihu.com/*"
+      ],
+      "run_at": "document_end",
+      "js": [
+        "script/content.js"
+      ],
+      "css": [
+        "css/index.css"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/zhihu.png",
+    "48": "icons/zhihu.png",
+    "64": "icons/zhihu.png",
+    "128": "icons/zhihu.png"
+  },
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "browser_action": {
+    "default_title": "优化阅读体验",
+    "default_icon": "icons/icon.png",
+    "default_popup": "popup/index.html"
+  },
+  "background": {},
+  "permissions": [
+    "tabs",
+    "storage",
+    "https://www.baidu.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*.jpeg",
+        "images/*.jpg",
+        "images/*.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
